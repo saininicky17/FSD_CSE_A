@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="sucess.html" method="get">
+
+        <label for="name">Name:</label> 
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+        <label for="email">E-mail:</label> 
+        <input type="email" id="email" placeholder="Enter your mail" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required><br><br>
+        <label>Address:</label>
+        <textarea name="address" placeholder="Enter your address" required rows="1"></textarea><br><br>
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required><br><br>
+        <label>Branch:</label>
+        <input type="radio" name="branch" id="CSE" value="CSE"><label for="CSE">CSE</label>
+        <input type="radio" name="branch" id="IT" value="IT"><label for="IT">IT</label>
+        <input type="radio" name="branch" id="ME" value="ME"><label for="ME">ME</label>
+        <input type="radio" name="branch" id="EN" value="En"><label for="EN">EN</label>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required><br><br>
+        <label>Confirm Password:</label>
+        <input type="password" name="confirm_password" placeholder="Confirm your password" required><br><br>
+        <input type="submit" name="submit" value="Register now">
+        &nbsp;
+        <input type="reset" name="reset" value="Reset data">
+    </form>
+</body>
+</html>
